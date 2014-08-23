@@ -4,23 +4,23 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>咖啡兔</title>
- <link href="http://www.kafeitu.me/atom.xml" rel="self"/>
- <link href="http://www.kafeitu.me/"/>
+ <title>梦海之巅</title>
+ <link href="http://mrcodechen.github.io/atom.xml" rel="self"/>
+ <link href="http://mrcodechen.github.io/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://www.kafeitu.me/</id>
+ <id>http://mrcodechen.github.io/</id>
  <author>
-   <name>咖啡兔</name>
+   <name>梦海之巅</name>
    <email>yanhonglei@gmail.com</email>
  </author>
  
  {% for post in site.posts limit:15 %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://www.kafeitu.me{{ post.url }}"/>
+   <link href="http://mrcodechen.github.io{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://www.kafeitu.me{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}<strong>原创文章，转载请注明：</strong>转载自：<a href='http://www.kafeitu.me{{post.url}}'>{{post.title}}</a></content>
+   <id>http://mrcodechen.github.io{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}<strong>原创文章，转载请注明：</strong>转载自：<a href='http://mrcodechen.github.io{{post.url}}'>{{post.title}}</a></content>
  </entry>
  {% endfor %}
  
