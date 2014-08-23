@@ -11,7 +11,7 @@ layout: nil
  <id>http://mrcodechen.github.io/</id>
  <author>
    <name>梦海之巅</name>
-   <email>yanhonglei@gmail.com</email>
+   <email>mrcode@foxmail.com</email>
  </author>
  
  {% for post in site.posts limit:15 %}
