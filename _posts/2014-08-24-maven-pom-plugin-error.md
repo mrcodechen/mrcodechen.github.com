@@ -9,7 +9,6 @@ tags:
 
 ## 解决Maven报Plugin execution not covered by lifecycle configuration 
 
-## 解决办法 ##
 在 &lt;plugins&gt; 标签外再套一个 &lt;pluginManagement&gt; 标签:
 <pre class="brush:xml">
 &lt;build&gt;
