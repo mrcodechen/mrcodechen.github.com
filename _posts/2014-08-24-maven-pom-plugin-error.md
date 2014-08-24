@@ -1,4 +1,4 @@
-w`---
+---
 layout: post
 category: maven
 title: "解决Maven报Plugin execution not covered by lifecycle configuration"
