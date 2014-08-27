@@ -21,11 +21,11 @@ tags:
 ### 1. 插件的基本配置
 
 <pre class="brush:xml">
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>  
-    <artifactId>maven-javadoc-plugin</artifactId>  
-    <version>2.9.1</version>  
-</plugin>
+&lt;plugin&gt;
+    &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt; 
+    &lt;artifactId&gt;maven-javadoc-plugin&lt;/artifactId&gt;
+    &lt;version&gt;2.9.1&lt;/version&gt;
+&lt;/plugin&gt;
 </pre>
 
 ### 2. 执行Maven命令
